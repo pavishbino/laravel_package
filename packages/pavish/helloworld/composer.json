@@ -1,0 +1,19 @@
+{
+    "name": "pavish/helloworld",
+    "description": "This is the hello world package",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "pavishbino",
+            "email": "pavishbino@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "Pavish\\Helloworld\\": "src/"
+        }
+    },
+    "require": {}
+}
